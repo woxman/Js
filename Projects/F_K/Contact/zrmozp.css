@@ -1,0 +1,40 @@
+html,
+body {
+  color: #CCC;
+  height: 100%;
+  width: 100%;
+}
+
+#project_container {
+  font-family: 'Raleway', serif;
+  padding: 15px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+#project_container h2 {
+  font-family: 'Titillium Web', serif;
+  font-size: 20pt;
+  letter-spacing: 3px;
+}
+
+#project_container p a {
+  color: white;
+}
+
+#project_container p a:hover {
+  color: orange;
+}
+
+#project_container p {
+  color: gray;
+  padding: 5px;
+  font-size: 10pt;
+}
+
+#projectbox {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+}
+

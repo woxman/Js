@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Contact/bootstrap.css">
+    <link rel="stylesheet" href="../Contact/font-awesome.css">
+    <link rel="stylesheet" href="../Contact/style.css">
+    <title>Statements</title>
+</head>
+<body>
+<script>
+    function State()
+    {
+        var x, y, z;
+        x = 5;
+        y = 6;
+        z = x + y;
+    }
+</script>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="body">
+            <div class="col-sm-12 fa-border form-2" align="center">
+                <div align="center" class="btn-danger "><p>Example</p></div>
+                <p><< کنید (onClick) برای نمایش خروجی هریک >></p>
+                <br>
+                <label for="1">1 = Statements & Varibles : </label>
+                <button class="btn alert-link alert-warning" id="1">متغیرها و عبارات</button>
+            </div>
+            <div class="col-sm-12 fa-border form-2">
+                <div align="center" class="btn-success"><p>Source</p></div>
+                <div class="col-sm-12" id="Source" align="center">
+                    <div class="border " onclick="alert(State.toString())">1</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

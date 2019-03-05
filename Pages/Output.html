@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Contact/bootstrap.css">
+    <link rel="stylesheet" href="../Contact/font-awesome.css">
+    <link rel="stylesheet" href="../Contact/style.css">
+    <title>Output</title>
+</head>
+<body>
+<script>
+function Inner()
+{
+    document.getElementById('1').innerHTML=('Changed');
+}
+function Alert()
+{
+    alert('Welcome Here....');
+}
+function Document()
+{
+    document.write("Helloo");
+}
+function Console()
+{
+    console.log('***** Power By Hekta *****')
+}
+</script>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="body">
+            <div class="col-sm-12 fa-border form-2" align="center">
+                <div align="center" class="btn-danger "><p>Example</p></div>
+                <p><< کنید (onClick) برای نمایش خروجی هریک >></p>
+                <br>
+                <label for="1">1 = InnerHTML : </label>
+                <button class="btn alert-link alert-warning" id="1" onclick="Inner();">برای تغیر محتوای یک محوطه</button>
+                <br><br>
+                <label for="2">2 = Alert : </label>
+                <button class="btn alert-link alert-warning" id="2" onclick="Alert();">برای نمایش یک مقدار در قالب پنجره هشدار (Alarm)</button>
+                <br><br>
+                <label for="3">3 = Document.Write : </label>
+                <button class="btn alert-link alert-warning" id="3" onclick="Document();">برای نوشتن یک مقدار در خروجی</button>
+                <br><br>
+                <label for="4">4 = Console.Log : </label>
+                <button class="btn alert-link alert-warning" id="4" onclick="Console();">برای نوشتن یک مقدار در محیط کنسول (Console) مرورگر</button>
+            </div>
+            <div class="col-sm-12 fa-border form-2">
+                <div align="center" class="btn-success"><p>Source</p></div>
+                <div class="col-sm-12" id="Source" align="center">
+                    <div class="border " onclick="alert(Inner.toString())">1</div>
+                    <div class="border " onclick="alert(Alert.toString())">2</div>
+                    <div class="border " onclick="alert(Document.toString())">3</div>
+                    <div class="border " onclick="alert(Console.toString())">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

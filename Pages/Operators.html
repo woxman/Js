@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Contact/bootstrap.css">
+    <link rel="stylesheet" href="../Contact/font-awesome.css">
+    <link rel="stylesheet" href="../Contact/style.css">
+    <title>Varibles</title>
+</head>
+<body>
+<script>
+    function Num()
+    {
+        var w = 50;
+        var x , y;
+        x = 20;
+        y = 1;
+        z = x + y + w;
+    }
+    function Str()
+    {
+        var w = "Hi";
+        var x , y , a;
+        x = "AmirHosein";
+        y = "Bahrami";
+        a = 18;
+        z = w + x + y;       //Output = AmirHosein Bahrami 18
+
+        // نکته : اگر اولین متغیر فراخانی شده رشته ای باشد...بقیه متغیر های فراخانی شده و خروجی آن قطعا رشته ای میشود و عدد شناخته نمیشود.
+    }
+    function Bool()
+    {
+        var x = true;
+        var y = false;
+    }
+</script>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="body">
+            <div class="col-sm-12 fa-border form-2" align="center" >
+                <div align="center" class="btn-danger "><p>Example</p></div>
+                <p><< کنید (onClick) برای نمایش خروجی هریک >></p>
+                <br>
+                <label for="1">Varible : </label>
+                <button class="btn alert-link alert-warning" id="1">تعریف انواع متغیر در طول برنامه</button>
+                <br><br>
+
+                <label for="2">1 = String Varible </label>
+                <button class="btn" id="2" dir="rtl">متغیر رشته ای</button>
+                <br><br>
+
+                <label for="3">2 = Number Varible </label>
+                <button class="btn" id="3" dir="rtl">متغیر عددی</button>
+                <br><br>
+
+                <label for="4">3 = Boolean Varible </label>
+                <button class="btn" id="4" dir="rtl">متغیر صحیح/غلط</button>
+            </div>
+            <div class="col-sm-12 fa-border form-2">
+                <div align="center" class="btn-success"><p>Source</p></div>
+                <div class="col-sm-12" id="Source" align="center">
+                    <div class="border " onclick="alert(Str.toString())">1</div>
+                    <div class="border " onclick="alert(Num.toString())">2</div>
+                    <div class="border " onclick="alert(Bool.toString())">3</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

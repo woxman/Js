@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Contact/bootstrap.css">
+    <link rel="stylesheet" href="../Contact/font-awesome.css">
+    <link rel="stylesheet" href="../Contact/style.css">
+    <title>Arithmetic</title>
+</head>
+<body>
+<script>
+    function Sum()
+    {
+    var x=33;
+    var y=12;
+
+    var w=x+y;
+    var s=45+1;
+    }
+    function Subtraction()
+    {
+        var x=33;
+        var y=12;
+
+        var w=x-y;
+        var s=45-1;
+    }
+    function Multiplication()
+    {
+        var x=10;
+        var y=2;
+
+        var w=x*y;
+        var s=25*5;
+    }
+    function Power()
+    {
+        var x=2;
+        var y=8;
+
+        var w=x**y;
+        var s=2**3;
+    }
+    function Division()
+    {
+        var x=30;
+        var y=10;
+
+        var w=x/y;
+        var s=45/2;
+    }
+    function Percentage()
+    {
+        var x=33;
+        var y=12;
+
+        var w=x%y;
+        var s=45%1;
+    }
+    function Plus_Plus()
+    {
+        var x=33;
+
+        var w=x++;
+    }
+    function Mines_Mines()
+    {
+        var x=33;
+
+        var w=x--;
+    }
+</script>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="body">
+            <div class="col-sm-12 fa-border form-2" align="center" >
+                <div align="center" class="btn-danger "><p>Example</p></div>
+                <p><< کنید (onClick) برای نمایش خروجی هریک >></p>
+                <br>
+                <label for="1">Arithmetic : </label>
+                <button class="btn alert-link alert-warning" id="1">عملیات های محاسباتی در طول برنامه</button>
+                <br><br>
+                <div class="col-sm-6">
+
+                    <label for="2">1 = Sum </label>
+                    <button class="btn" id="2" dir="rtl">جمع ( + )</button>
+                    <br><br>
+
+                    <label for="3">2 = Subtraction </label>
+                    <button class="btn" id="3" dir="rtl">تفریق ( - )</button>
+                    <br><br>
+
+                    <label for="4">3 = Multiplication </label>
+                    <button class="btn" id="4" dir="rtl">ضرب ( * )</button>
+                    <br><br>
+
+                    <label for="5">4 = Power </label>
+                    <button class="btn" id="5" dir="rtl">توان ( ** )</button>
+                    <br><br>
+                </div>
+                <div class="col-sm-6">
+
+                    <label for="6">5 = Division </label>
+                    <button class="btn" id="6" dir="rtl">تقسیم ( / )</button>
+                    <br><br>
+
+                    <label for="7">6 = Percentage </label>
+                    <button class="btn" id="7" dir="rtl">درصد ( % )</button>
+                    <br><br>
+
+                    <label for="8">7 = Plus-Plus </label>
+                    <button class="btn" id="8" dir="rtl">افزایش ( ++ )</button>
+                    <br><br>
+
+                    <label for="9">8 = Mines_Mines </label>
+                    <button class="btn" id="9" dir="rtl">کاهش ( -- )</button>
+                    <br><br>
+                </div>
+
+            </div>
+            -<div class="col-sm-12 fa-border form-2">
+                <div align="center" class="btn-success"><p>Source</p></div>
+                <div class="col-sm-12" id="Source" align="center">
+                    <div class="col-sm-6">
+                        <div class="border " onclick="alert(Sum.toString())">1</div>
+                        <div class="border " onclick="alert(Subtraction.toString())">2</div>
+                        <div class="border " onclick="alert(Multiplication.toString())">3</div>
+                        <div class="border " onclick="alert(Power.toString())">4</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="border " onclick="alert(Division.toString())">5</div>
+                        <div class="border " onclick="alert(Percentage.toString())">6</div>
+                        <div class="border " onclick="alert(Plus_Plus.toString())">7</div>
+                        <div class="border " onclick="alert(Mines_Mines.toString())">8</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
