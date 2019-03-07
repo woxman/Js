@@ -1,0 +1,32 @@
+body
+{
+    background-image: url("Contact/1.jpg");
+    background-repeat: no-repeat;
+}
+
+#Jet
+{
+    display: none;
+}
+#start
+{
+    position: fixed;
+    top: 95%;
+    left: 50%;
+}
+
+@keyframes Jet_M
+{
+    from
+    {
+        position: fixed;
+        left: 32%;
+        top: 100%;
+    }
+    to
+    {
+        position: fixed;
+        left: 32%;
+        top: 70%;
+    }
+}
