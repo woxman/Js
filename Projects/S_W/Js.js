@@ -27,7 +27,7 @@ document.getElementById('start').onclick = function ()
     setInterval(function ()
     {
         r++;
-        document.getElementById('add').innerHTML+="<img id='"+r+"attacker' src='Contact/attacker.png' alt=''>";
+        document.getElementById('add').innerHTML="<img id='"+r+"attacker' src='Contact/attacker.png' alt=''>";
         var w= document.getElementById(r+'attacker');
         w.style.left=(Math.floor(Math.random()* 90)+1)+"%";
         w.style.animation="Attacker_M 5s";
