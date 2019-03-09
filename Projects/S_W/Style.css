@@ -14,7 +14,21 @@ body
     top: 95%;
     left: 50%;
 }
+#Cheeph
+{
+    position: fixed;
+    top: 30%;
+    left: 33%;
+    display: inline;
 
+}
+#b_g
+{
+    position: fixed;
+    top: 0%;
+    left: 45%;
+    display: none;
+}
 @keyframes Jet_M
 {
     from
@@ -28,5 +42,81 @@ body
         position: fixed;
         left: 32%;
         top: 70%;
+    }
+}
+@keyframes Cheeph_O
+{
+    10%
+    {
+        display: block;
+        opacity: 0.0;
+
+    }
+    20%
+    {
+        opacity: 0.0;
+    }
+    30%
+    {
+        opacity: 0.1;
+    }
+    40%
+    {
+        opacity: 0.2;
+    }
+    50%
+    {
+        opacity: 0.3;
+    }
+    60%
+    {
+        opacity: 0.6;
+    }
+    70%
+    {
+        opacity: 0.7;
+    }
+    80%
+    {
+        opacity: 0.8;
+    }
+    90%
+    {
+        opacity: 0.9;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+
+}
+
+@keyframes Cheeph_M
+{
+    from
+    {
+        transform: rotate(2deg);
+        transition: 1s;
+        transform: rotate(-2deg);
+    }
+    to
+    {
+        transform: rotate(2deg);
+        transition: 1s;
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes Attacker_M
+{
+    from
+    {
+        position: fixed;
+        top: 0%;
+    }
+    to
+    {
+        position: fixed;
+        top: 100%;
     }
 }
