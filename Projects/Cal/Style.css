@@ -1,0 +1,75 @@
+#Code
+{
+    position: fixed;
+    left: 45%;
+    top: 95%;
+}
+
+#Cal_Body
+{
+    border: 1px solid black;
+    width: 230px;
+    height: 31+px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#Result
+{
+    width: 100%;
+    height: 60px;
+    background-color: #5e5e5e;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.Flat
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 57px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #e0e0e0;
+}
+#Flexi
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Borderr
+{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: #ff8c00;
+
+}
+.Flat_B
+{
+    border-right: 1px solid black;
+    width: 114px;
+
+}
+.Flat_Radu
+{
+    border-radius: 0px 0px 10px 0px;
+}
+.Flat_Zero
+{
+
+    padding-top: 8px;
+    padding-left: 50px;
+    background-color: #e0e0e0;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.Flat_Col
+{
+    background-color: #d6d6d6;
+}

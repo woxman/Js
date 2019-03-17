@@ -1,0 +1,8 @@
+#s
+{
+    position: fixed;
+    transform: rotate(-90deg);
+    top: 2%;
+    left: -1%;
+    z-index: 99999999;
+}

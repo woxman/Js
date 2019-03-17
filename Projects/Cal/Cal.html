@@ -5,45 +5,46 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../Contact/jquery.min.js"></script>
     <link rel="stylesheet" href="../../Contact/bootstrap.css">
     <link rel="stylesheet" href="../../Contact/font-awesome.css">
     <link rel="stylesheet" href="../../Contact/style.css">
     <script src="Js.js"></script>
+    <link rel="stylesheet" href="Style.css">
     <title>ماشین حساب</title>
 </head>
 <body>
 <div class="container-fluid" >
     <div class="container">
-        <div class="body">
-            <div class="col-sm-12 fa-border form-2" align="center">
-                <div align="center" class="btn-danger "><p>Example</p></div>
-                <br><br><br><br><br>
-                <div class="form-inline">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Number1" placeholder="Number1">
-                        <select class="form-control" id="Operator">
-                            <option>+</option>
-                            <option>-</option>
-                            <option>*</option>
-                            <option>/</option>
-                            <option>%</option>
-                            <option>**</option>
-                        </select>
-                        <input type="text" class="form-control" id="Number2" placeholder="Number2">
-                        <input type="submit" value="=" class="btn" onclick="Cal()">
-                        <br><br>
-                        <div id="answer" class="fa-border alert-link alert-warning">Answer</div>
-                    </div>
-                </div>
-                </div>
-            <div class="col-sm-12 fa-border form-2">
-                <div align="center" class="btn-success"><p>Output</p></div>
-                <div class="col-sm-12" id="Source" align="center">
-                    <br><br><br><br>
-                    <input type="button" value="Sourse Code Example" class="btn" onclick="alert(Cal.toString());">
-                </div>
+
+        <div id="Cal_Body" >
+            <div id="Result"></div>
+            <div id="Flexi">
+                <button id="0" class="Flat Flat_Col" value="C">C</button>
+                <button id="1" class="Flat Flat_Col" value="+-"><sup>+</sup>/<sub>−</sub></button>
+                <button id="2" class="Flat Flat_Col" value="%">%</button>
+                <button id="3" class="Flat Borderr" value="/">÷</button>
+                <button id="4" class="Flat" value="7">7</button>
+                <button id="5" class="Flat" value="8">8</button>
+                <button id="6" class="Flat" value="9">9</button>
+                <button id="7" class="Flat Borderr" value="*">*</button>
+                <button id="8" class="Flat" value="4">4</button>
+                <button id="9" class="Flat" value="5">5</button>
+                <button id="10" class="Flat" value="6">6</button>
+                <button id="11" class="Flat Borderr" value="-">-</button>
+                <button id="12" class="Flat" value="3">3</button>
+                <button id="13" class="Flat" value="2">2</button>
+                <button id="14" class="Flat" value="1">1</button>
+                <button id="15" class="Flat Borderr" value="+">+</button>
+                <button id="16" class="Flat_B Flat_Zero" value="0">0</button>
+                <button id="17" class="Flat" value=".">.</button>
+                <button id="18" class="Flat Borderr Flat_Radu" value="=">=</button>
             </div>
         </div>
+    <!----------------------------------------------------------------------->
+        <input id="Code" type="button" value="Sourse Code Example" class="btn btn-warning">
+
+
     </div>
 </div>
 </body>

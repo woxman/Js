@@ -1,0 +1,31 @@
+#Code
+{
+    position: fixed;
+    left: 45%;
+    top: 95%;
+}
+#carts
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart
+{
+    border: 1px solid black;
+    width: 152px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px; 
+    margin-right: 10px; 
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-image: url('Contact/1.jpg');
+    transition: 1s;
+}
+/*.cart:hover
+{
+	transform: rotateY(180deg);
+	transition: 1s
+}
+*/

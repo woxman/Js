@@ -1,0 +1,65 @@
+.face {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.face:after {
+  top: 70px;
+  left: 65px;
+  right: 65px;
+  position: absolute;
+  content: " ";
+  width: 20px;
+  height: 15px;
+  border-radius: 0px 0px 25px 25px;
+  background: rgba(255, 0, 0, 0.4);
+}
+
+.eye {
+  border-radius: 25px;
+  margin-top: 1em;
+  background: rgba(0, 0, 0, 0.69);
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  background: #CCC;
+}
+
+.eye.animate {
+  transition: all 100ms;
+}
+
+.eye:after {
+  content: " ";
+  bottom: 25px;
+  right: 10px;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 15px;
+}
+
+#animate {
+  outline: none;
+  background: #FFF;
+  border: solid thin #000;
+  padding: 15px;
+  margin: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #000;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+#animate:hover {
+  background: #000;
+  color: #FFF;
+  border: solid thin white;
+}

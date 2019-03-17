@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../Contact/bootstrap.css">
+    <link rel="stylesheet" href="../../Contact/font-awesome.css">
+    <link rel="stylesheet" href="../../Contact/style.css">
+    <script src="Js.js"></script>
+    <title>اعتبار سنجی</title>
+</head>
+<body>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="body">
+            <div class="col-sm-12 fa-border form-2" align="center">
+                <div align="center" class="btn-danger "><p>Example</p></div>
+                <br><br><br>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Number" placeholder="Number">
+                        <br><br>
+                        <input type="submit" value="1 : National Code" class="btn" id="National_C" onclick="National()">
+                        <input type="submit" value="2 : ZIP Code" class="btn" onclick="Zip()">
+                        <input type="submit" value="3 : ISBN Code" class="btn" onclick="ISBN()">
+                        <br><br><br>
+                        <div id="answer" class="fa-border alert-link alert-warning">Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 fa-border form-2">
+                <div align="center" class="btn-success"><p>Output</p></div>
+                <div class="col-sm-12" id="Source" align="center">
+                    <br><br><br><br>
+                    <input type="button" value="Sourse Code 1" class="btn" onclick="alert(National.toString());">
+                    <br><br>
+                    <input type="button" value="Sourse Code 2" class="btn" onclick="alert(Zip.toString());">
+                    <br><br>
+                    <input type="button" value="Sourse Code 3" class="btn" onclick="alert(ISBN.toString());">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

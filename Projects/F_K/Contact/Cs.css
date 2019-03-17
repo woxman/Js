@@ -1,0 +1,269 @@
+body,html
+{
+    cursor:url(../Icon/index.png)30 30,pointer;
+}
+/*
+----------------------------------------------------
+                Start Flies Style
+----------------------------------------------------
+ */
+#s
+{
+    position: fixed;
+    left: 50%;
+    top: 95%;
+}
+#nf
+{
+    position: fixed;
+    left: 0%;
+    top: 95%;
+}
+#nk
+{
+    position: fixed;
+    left: 89%;
+    top: 95%;
+}
+
+
+.eye_1
+{
+    margin-top: 3px;
+    margin-left: 1.9px;
+    border: 0.2px solid black;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    float: left;
+    background-color: #761c19;
+
+}
+
+.eye_2
+{
+    margin-top: 3px;
+    margin-left: 4.5px;
+    border: 0.2px solid black;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #761c19;
+}
+
+.wing_1
+{
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    border-top: 6px solid transparent;
+    border-right: 12px solid #555;
+    border-bottom: 16px solid transparent;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.wing_2
+{
+    width: 0;
+    height: 0;
+    margin-right: 6px;
+    border-top: 6px solid transparent;
+    border-left: 12px solid #555;
+    border-bottom: 16px solid transparent;
+    border-radius: 15px;
+    position: relative;
+    top: -22px;
+    right: 9px;
+    opacity: 0.5;
+}
+
+.foot_1
+{
+    border-bottom: 0.8px solid   black;
+    width: 5px;
+    position: relative;
+    top: -50px;
+    right: -7px;
+    transform: rotate(-50deg);
+
+}
+
+.foot_2
+{
+    border-bottom: 0.8px solid   black;
+    width: 5px;
+    position: relative;
+    top: -42px;
+    right: -9px;
+    transform: rotate(-30deg);
+}
+
+.foot_3
+{
+    border-bottom: 0.8px solid   black;
+    width: 6px;
+    position: relative;
+    top: -32px;
+    right: -6px;
+    transform: rotate(60deg);
+}
+
+.foot_4
+{
+    border-bottom: 0.8px solid   black;
+    width: 6px;
+    position: relative;
+    top: -51px;
+    right: 4px;
+    transform: rotate(50deg);
+}
+
+.foot_5
+{
+    border-bottom: 0.8px solid   black;
+    width: 5px;
+    position: relative;
+    top: -44px;
+    right: 5px;
+    transform: rotate(25deg);
+}
+
+.foot_6
+{
+    border-bottom: 0.8px solid   black;
+    width: 5px;
+    position: relative;
+    top: -34px;
+    right: 3px;
+    transform: rotate(-60deg);
+}
+
+/*.mouth
+{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid #555;
+    position: relative;
+    top: -56px;
+    right: -0.8px;
+}*/
+img
+{
+    opacity: 0.8;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+@keyframes flap-l {
+    0% {
+        transform: rotateY(0);
+    }
+
+    50% {
+        transform: rotateY(80deg);
+    }
+
+    100% {
+        transform: rotateY(0);
+    }
+}
+
+@keyframes flap-r
+{
+    0%
+    {
+        transform: rotateY(0);
+    }
+
+    50%
+    {
+        transform: rotateY(-80deg);
+    }
+
+    100%
+    {
+        transform: rotateY(0);
+    }
+}
+@keyframes fly
+{
+    0%
+    {
+        margin-top:-5% ;
+    }
+    10%
+    {
+        margin-top:-10% ;
+        transform: rotate(20deg);
+    }
+    20%
+    {
+        margin-top:-15%;
+        transform: rotate(-20deg);
+    }
+    30%
+    {
+        margin-top:-20%;
+        transform: rotate(20deg);
+    }
+    40%
+    {
+        margin-top:-25%;
+        transform: rotate(-20deg);
+    }
+    50%
+    {
+        margin-top:-30%;
+        transform: rotate(20deg);
+    }
+    60%
+    {
+        margin-top:-35%;
+        transform: rotate(-20deg);
+    }
+    70%
+    {
+        margin-top:-40%;
+        transform: rotate(20deg);
+    }
+    80%
+    {
+        margin-top:-45%;
+        transform: rotate(-20deg);
+    }
+
+    100%
+    {
+        margin-top:-45%;
+        transform: rotate(20deg);
+    }
+
+}
+
+#flay
+{
+
+animation-name: fly;
+animation-duration: 7s;
+animation-fill-mode: forwards;
+
+}
+
+.wing_1
+{
+    animation: flap-r 1s cubic-bezier(.08,1.47,.65,-.68) infinite;
+}
+
+.wing_2
+{
+    animation: flap-l 1s cubic-bezier(.08,1.47,.65,-.68) infinite;
+}
+/*
+----------------------------------------------------
+                End Flies Style
+----------------------------------------------------
+*/
+
+
