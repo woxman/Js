@@ -30,7 +30,7 @@ $(document).ready(function er()
 		$(k+" p").css("transform", "rotateY(-180deg)");
  		$(k+" p").css("display", "block");
 	}
-	//$("p").css("display", "none");
+	$("p").css("display", "none");
 	$("#0").on("click",function(){S_R("#0");});
 	$("#1").on("click",function(){S_R("#1");});
 	$("#2").on("click",function(){S_R("#2");});

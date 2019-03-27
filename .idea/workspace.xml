@@ -2,72 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9703d0fa-2f56-4883-8ca0-0cc9fa73ba9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Projects/Cal/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Arithmetic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Arrays-Iteration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Arrays-Method.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Arrays-Sort.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Arrays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Assignment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Best_Practices.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Bitwise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Booleans.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Break.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Comparisons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Condition.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Const.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Data_Types.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Date_Formats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Date_Get_Methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Date_Set_Methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Dates.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Debugging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Errors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Evenets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Function.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Hosting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Json.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Let.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Loop_For.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Loop_While.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Math.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Mistakes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Number_Method.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Numbers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Object.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Operators.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Performans.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Random.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/RegExp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Resorred_Words.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Scops.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Script_Mode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Statements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/String.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/String_Method.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/String_Mode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Style_Guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Switch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Syntax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/This_Keyword.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Type_Conversion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Varibles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Version_ES5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Version_ES6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Cal/Cal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Cal/Cal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/Cal/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Cal/Js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/Contact/Cs.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/Contact/Cs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/Contact/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/Contact/Js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/Contact/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/Contact/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/F_K.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/F_K.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/Icon/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/Icon/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/F_K/Icon/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/F_K/Icon/index.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Val/Val.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Val/Val.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/P_P/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/P_P/Js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/S_W/Contact/Sound/shoot.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,24 +34,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/P_P/Js.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/P_P/P_P.html">
+        <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projects/P_P/Style.css">
+        <entry file="file://$PROJECT_DIR$/Projects/T_D/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="403">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/T_D/T_D.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -150,6 +92,8 @@
       <find>2</find>
       <find>20</find>
       <find>Flat_Radu</find>
+      <find>Week_1</find>
+      <find>ret</find>
     </findStrings>
     <replaceStrings>
       <replace>5s</replace>
@@ -166,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Projects/E_T_C.html" />
-        <option value="$PROJECT_DIR$/Projects/Val.html" />
-        <option value="$PROJECT_DIR$/Projects/B_W_F.html" />
         <option value="$PROJECT_DIR$/Projects/Cal.html" />
         <option value="$PROJECT_DIR$/Pages/Link.html" />
         <option value="$PROJECT_DIR$/Test.html" />
@@ -216,11 +157,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Projects/P_P/P_P.html" />
         <option value="$PROJECT_DIR$/Projects/P_P/Style.css" />
+        <option value="$PROJECT_DIR$/Projects/T_D/Js.js" />
+        <option value="$PROJECT_DIR$/Projects/T_D/Contact/hijri.js" />
+        <option value="$PROJECT_DIR$/Projects/T_D/T_D.html" />
+        <option value="$PROJECT_DIR$/Projects/T_D/Style.css" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-31" />
     <option name="y" value="65" />
     <option name="width" value="1382" />
@@ -317,6 +262,8 @@
       <workItem from="1552639095190" duration="7599000" />
       <workItem from="1552723336969" duration="9771000" />
       <workItem from="1552809923899" duration="1183000" />
+      <workItem from="1553514254234" duration="53000" />
+      <workItem from="1553673503347" duration="5474000" />
     </task>
     <task id="LOCAL-00001" summary="3">
       <created>1552148883469</created>
@@ -329,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190421000" />
+    <option name="totallyTimeSpent" value="195948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,28 +289,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19591528" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872504" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
@@ -383,7 +310,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -433,13 +360,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Projects/Game/Js.js" />
-    <entry file="file://$PROJECT_DIR$/Projects/Game/Cs.css" />
-    <entry file="file://$PROJECT_DIR$/Projects/Game/Contact/Cs.sass" />
-    <entry file="file://$PROJECT_DIR$/Projects/Game/Contact/index.js" />
-    <entry file="file://$PROJECT_DIR$/Projects/B_W_F/Js.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/C_P_W/Js.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -607,13 +527,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Cal - Copy/Style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Cal - Copy/Style.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -621,20 +535,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/P_P/Js.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/P_P/P_P.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/P_P/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/P_P/P_P.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/P_P/Js.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/Contact/hijri.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contact/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/T_D.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -6,13 +6,8 @@ $(document).ready(function er()
 		sum = x.replace("undefined", " ");
 		$("#Result").html(sum);
 	}
-	$("#0").on("click",function()
-	{
-		var sum=0;
-		$("#Result").html("");
-	});
-
-	$("#1").on("click",function(){var w=Math.abs(sum);repp(w)});
+	$("#0").on("click",function(){sum="";$("#Result").html(" ");});
+	$("#1").on("click",function(){var m = $("#Result").html();$("#Result").html(Math.abs(m));});
 	$("#2").on("click",function(){var w=$("#2").val();sum+=w;repp(sum)});
 	$("#3").on("click",function(){var w=$("#3").val();sum+=w;repp(sum)});
 	$("#4").on("click",function(){var w=$("#4").val();sum+=w;repp(sum)});
@@ -30,7 +25,6 @@ $(document).ready(function er()
 	$("#16").on("click",function(){var w=$("#16").val();sum+=w;repp(sum)});
 	$("#17").on("click",function(){var w=$("#17").val();sum+=w;repp(sum)});
 	$("#18").on("click",function(){$("#Result").html(eval(sum));});
-
 
 	$("#Code").on("click",function(){alert(er.toString());});
 }); 
