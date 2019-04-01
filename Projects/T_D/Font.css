@@ -1,0 +1,20 @@
+@media screen and (max-width: 380px) and (min-width: 200px) {
+    #d1
+    {
+        font-size: 25px;
+    }
+    #d2
+    {
+        font-size: 19px;
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    #d3
+    {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .d31{
+        margin-top: 15px;
+    }
+}

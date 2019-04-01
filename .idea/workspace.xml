@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9703d0fa-2f56-4883-8ca0-0cc9fa73ba9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Cal/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Cal/Js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/P_P/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/P_P/Js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/S_W/Contact/Sound/shoot.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/T_D/Js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/T_D/Js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/T_D/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/T_D/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/T_D/T_D.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/T_D/T_D.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/T_D/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/T_D/T_D.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="226">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -94,10 +93,12 @@
       <find>Flat_Radu</find>
       <find>Week_1</find>
       <find>ret</find>
+      <find>409.6</find>
     </findStrings>
     <replaceStrings>
       <replace>5s</replace>
       <replace>eyee</replace>
+      <replace>40.6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,17 +158,17 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Projects/P_P/P_P.html" />
         <option value="$PROJECT_DIR$/Projects/P_P/Style.css" />
-        <option value="$PROJECT_DIR$/Projects/T_D/Js.js" />
         <option value="$PROJECT_DIR$/Projects/T_D/Contact/hijri.js" />
         <option value="$PROJECT_DIR$/Projects/T_D/T_D.html" />
         <option value="$PROJECT_DIR$/Projects/T_D/Style.css" />
+        <option value="$PROJECT_DIR$/Projects/T_D/Js.js" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-31" />
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-24" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
@@ -177,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,13 +201,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/H&amp;S - Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -264,6 +265,8 @@
       <workItem from="1552809923899" duration="1183000" />
       <workItem from="1553514254234" duration="53000" />
       <workItem from="1553673503347" duration="5474000" />
+      <workItem from="1553686624085" duration="7840000" />
+      <workItem from="1553784789625" duration="4734000" />
     </task>
     <task id="LOCAL-00001" summary="3">
       <created>1552148883469</created>
@@ -276,7 +279,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195948000" />
+    <option name="totallyTimeSpent" value="208522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,9 +292,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,7 +306,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -559,27 +561,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contact/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/T_D/T_D.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/T_D/Style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

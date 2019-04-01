@@ -2,17 +2,34 @@
     font-family: New_2;
     src: url("Contact/ShareTechMono-Regular.ttf");
 }
-body
-{
-    background-color: black;
+
+body {
     font-family: New_2;
+    height: 635px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
-#Time
-{
+.Note {
+    background-color: #FFFFAA;
+    color: black;
+    text-align: right;
+    position: fixed;
+    right: 1%;
+    top: 28%;
+    width: 300px;
+    height: 450px;
+    z-index: 999999;
+    opacity: 0.7;
+}
+#Tree {
+    width: 200px;
+    position: fixed;
+    left: 30%;
+    top: 70%;
+}
+#Time {
     position: fixed;
     left: 25%;
     top: 38%;
@@ -21,25 +38,422 @@ body
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow
-{
+
+@-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
 }
-@media screen and (max-width: 380px) and (min-width: 200px)
-{
-    #Time
-    {
-        left: 5%;
+
+@media screen and (max-width: 380px) and (min-width: 200px) {
+    body {
+        height: 512px;
+    }
+
+    #Time {
+        left: 4%;
         font-size: 75px;
     }
+
+    .Note {
+        top: 58%;
+        right: 8%;
+        height: 218px;
+    }
+    #Tree{
+        width: 120px;
+        left: 60%;
+        top: 80%;
+    }
+
 }
 
-
-#Code
-{
+#Code {
     position: fixed;
     left: 45%;
     top: 95%;
 }
+
+.Cloud {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: fixed;
+    animation-name: Cloud;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+#d1
+{
+    font-size: 50px;
+}
+#d2
+{
+    font-size: 31px;
+    font-weight: bold;
+}
+#d3
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.d31{
+    margin-top: 30px;
+}
+.Cloud::before {
+    content: '';
+    width: 35px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: -20px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.Cloud::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: -10px;
+    top: 17px;
+    border-radius: 50%;
+}
+
+.land {
+    width: 130%;
+    height: 240px;
+    position: fixed;
+    left: -100px;
+    bottom: -100px;
+    background-color: #83a81c;
+    border-radius: 50%;
+    z-index: -9999;
+
+}
+
+.land::before {
+    width: 50%;
+    height: 200px;
+    content: '';
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    border-radius: 50%;
+    background-color: #96be29;
+    transform: rotate(-15deg);
+    animation-name: land1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 380px) and (min-width: 200px) {
+    .land::before {
+        width: 100%;
+    }
+
+}
+
+/*-------------Moon And Sun And Star--------------*/
+
+.Moon {
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+    transform: rotate(120deg);
+    background: radial-gradient(farthest-corner at 33% 100%, #33393A 45%, #ffffff 47%);
+    background-size: 150% 100%;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.Sun {
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.Star {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+
+.ray_box {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    -webkit-animation: ray_anim 120s linear infinite;
+    animation: ray_anim 120s linear infinite;
+}
+
+.ray {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    margin-left: 10px;
+    border-radius: 80% 80% 0 0;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.ray1 {
+    height: 170px;
+    width: 30px;
+    -webkit-transform: rotate(180deg);
+    top: -175px;
+    left: 15px;
+}
+
+.ray2 {
+    height: 100px;
+    width: 8px;
+    -webkit-transform: rotate(220deg);
+    top: -90px;
+    left: 75px;
+}
+
+.ray3 {
+    height: 170px;
+    width: 50px;
+    -webkit-transform: rotate(250deg);
+    top: -80px;
+    left: 100px;
+}
+
+.ray4 {
+    height: 120px;
+    width: 14px;
+    -webkit-transform: rotate(305deg);
+    top: 30px;
+    left: 100px;
+}
+
+.ray5 {
+    height: 140px;
+    width: 30px;
+    -webkit-transform: rotate(-15deg);
+    top: 60px;
+    left: 40px;
+}
+
+.ray6 {
+    height: 90px;
+    width: 50px;
+    -webkit-transform: rotate(30deg);
+    top: 60px;
+    left: -40px;
+}
+
+.ray7 {
+    height: 180px;
+    width: 10px;
+    -webkit-transform: rotate(70deg);
+    top: -35px;
+    left: -40px;
+}
+
+.ray8 {
+    height: 120px;
+    width: 30px;
+    -webkit-transform: rotate(100deg);
+    top: -45px;
+    left: -90px;
+}
+
+.ray9 {
+    height: 80px;
+    width: 10px;
+    -webkit-transform: rotate(120deg);
+    top: -65px;
+    left: -60px;
+}
+
+.ray10 {
+    height: 190px;
+    width: 23px;
+    -webkit-transform: rotate(150deg);
+    top: -185px;
+    left: -60px;
+}
+
+
+@-webkit-keyframes ray_anim {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes Blink {
+    from {
+        opacity: 0.1;
+        transition: 1s;
+    }
+}
+
+@keyframes Cloud {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(1350px);
+    }
+}
+
+/*-------------Moon And Sun And Star--------------*/
+/*-------------Flower--------------*/
+
+.f1 {
+    top: 0;
+    left: 0;
+}
+
+.f2 {
+    top: 25px;
+    left: 100px;
+}
+
+.f3 {
+    top: 0;
+    left: 200px;
+}
+
+.f4 {
+    top: 25px;
+    left: 300px;
+}
+
+.flower {
+    position: absolute;
+}
+
+.petal {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background: #fc6464;
+}
+
+.s {
+    background: #835924;
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    width: 4px;
+    height: 80px;
+}
+
+.petal1 {
+    background: #645800;
+    top: 20px;
+    left: 20px;
+}
+
+.petal2 {
+    top: 3px;
+    left: 20px;
+}
+
+.petal3 {
+    top: 13px;
+    left: 5px;
+}
+
+.petal4 {
+    top: 30px;
+    left: 9px;
+}
+
+.petal5 {
+    top: 30px;
+    left: 28px;
+}
+
+.petal6 {
+    top: 13px;
+    left: 34px;
+}
+
+#l1 {
+    z-index: 1;
+    top: 30px;
+    left: 80px;
+}
+
+#l2 {
+    z-index: 2;
+    top: 50px;
+    left: 60px;
+}
+
+#l3 {
+    z-index: 3;
+    top: 80px;
+    left: 0px;
+}
+
+#l4 {
+    z-index: 4;
+    top: 250px;
+    left: 70px;
+}
+
+.Flower_1 {
+    position: fixed;
+    left: 5%;
+    top: 84%;
+
+}
+
+.Flower_2 {
+    position: fixed;
+    left: 15%;
+    top: 83%;
+
+}
+
+.Flower_3 {
+    position: fixed;
+    left: 40%;
+    top: 82%;
+
+}
+
+.Flower_4 {
+    position: fixed;
+    left: 60%;
+    top: 80%;
+
+}
+
+/*-------------Flower--------------*/
