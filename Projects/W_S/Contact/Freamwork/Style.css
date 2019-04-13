@@ -1,0 +1,59 @@
+body{
+    background-image: url("../Image/bg.jpg");
+}
+#Add{
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 60%;
+    top: 7%;
+    font-size: 15px;
+}
+#AT{
+
+}
+#Date{
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 30%;
+    top: 7%;
+}
+
+#Window{
+    border: 1px solid black;
+    position: fixed;
+    left: 6%;
+    top: 15%;
+    width: 1197px;
+    height: 510px;
+    border-radius: 5px;
+    background-color: #9d9d9d;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Tile{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 47.8px;
+    height: 43px;
+    text-align: center;
+}
+#Tile:nth-child(odd) {
+background-color: #4e555b;
+}
+#Tilee{
+border-right: 1px solid black;
+border-top: 1px solid black;
+width: 47.8px;
+height: 58px;
+}
+
