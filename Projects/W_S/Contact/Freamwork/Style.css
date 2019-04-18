@@ -1,59 +1,96 @@
+@font-face {
+    font-family: bmitra;
+    src: url("Samim.woff");
+}
 body{
     background-image: url("../Image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 #Add{
-    width: 150px;
-    height: 30px;
-    text-align: right;
-    padding-right: 20px;
-    padding-bottom: 30px;
     position: fixed;
     left: 60%;
-    top: 7%;
-    font-size: 15px;
+    top: 6%;
+    font-family: bmitra;
 }
-#AT{
-
+#Add_btn{
+    font-size: 20px;
 }
-#Date{
-    width: 150px;
-    height: 30px;
-    text-align: right;
-    padding-right: 20px;
-    padding-bottom: 30px;
+#Lang{
     position: fixed;
-    left: 30%;
-    top: 7%;
+    left: 20%;
+    top: 6%;
+    font-family: bmitra;
 }
-
 #Window{
-    border: 1px solid black;
-    position: fixed;
-    left: 6%;
-    top: 15%;
-    width: 1197px;
-    height: 510px;
+    border: 3px solid #4e555b;
     border-radius: 5px;
-    background-color: #9d9d9d;
-    opacity: 0.8;
+    margin-top: 90px;
+    min-height: 530px;
+}
+#Window_Header{
+    height: 25px;
+    border-bottom: 2px solid black;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: silver;
 }
-
-#Tile{
-    border-right: 1px solid black;
+.Clocks{
+    border-left: 1px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+    height: 100%;
+}
+#First_Clock {
+    padding-right: 8px;
+    margin-right: 52px;
+}
+.Wekend{
     border-bottom: 1px solid black;
-    width: 47.8px;
-    height: 43px;
-    text-align: center;
+    min-height: 72px;
 }
-#Tile:nth-child(odd) {
-background-color: #4e555b;
+.Title_Wekend{
+    border-left: 1px solid black;
+    height: 72px;
+    margin-left: 95%;padding-top: 20px;
 }
-#Tilee{
-border-right: 1px solid black;
-border-top: 1px solid black;
-width: 47.8px;
-height: 58px;
+.Text_Day{
+    text-align: end;
+}
+#Language {
+    font-size: 18px;
+}
+.Half_Time{
+    border-left: 1px dashed black;
+    height: 535px;
+    position: absolute;
+    z-index: -99999999;
 }
 
+#H1{position: absolute;left: 3.8%}
+#H2{position: absolute;left: 8.5%}
+#H3{position: absolute;left: 13%}
+#H4{position: absolute;left: 17.9%}
+#H5{position: absolute;left: 22.6%}
+#H6{position: absolute;left: 27.3%}
+#H7{position: absolute;left: 32%}
+#H8{position: absolute;left: 36.7%}
+#H10{position: absolute;left: 41.3%}
+#H11{position: absolute;left: 46%}
+#H12{position: absolute;left: 50.7%}
+#H13{position: absolute;left: 55.4%}
+#H14{position: absolute;left: 60.1%}
+#H15{position: absolute;left: 64.8%}
+#H16{position: absolute;left: 69.5%}
+#H17{position: absolute;left: 74.1%}
+#H18{position: absolute;left: 78.8%}
+#H19{position: absolute;left: 83.5%}
+#H20{position: absolute;left: 88.2%}
+
+#Add_Title{
+    padding-left: 30%;
+}
