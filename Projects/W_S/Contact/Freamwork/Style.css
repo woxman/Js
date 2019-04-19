@@ -21,6 +21,7 @@ body{
     left: 20%;
     top: 6%;
     font-family: bmitra;
+    z-index: 9999999
 }
 #Window{
     border: 3px solid #4e555b;

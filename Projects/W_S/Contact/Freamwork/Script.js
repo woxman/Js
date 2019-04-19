@@ -44,7 +44,7 @@ $(document).ready(function(){
         $('#Add_btn').html("&nbsp;اضافه کردن");
         $('#Add_Title').text("وارد کردن اطلاعات");
         $('#Add_Send').text("ثبت");
-        $('#Slect_Title').text("....انتخواب");
+        $('#Slect_Title').text("انتخواب....");
         $('#Name_Title').text("عنوان : ");
         $('#Day_Title').text("روز : ");
         $('#Time_Title').text("زمان : ");
