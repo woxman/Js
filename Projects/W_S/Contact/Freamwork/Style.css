@@ -27,6 +27,7 @@ body{
     border-radius: 5px;
     margin-top: 90px;
     min-height: 530px;
+    position: relative;
 }
 #Window_Header{
     height: 25px;
@@ -93,4 +94,9 @@ body{
 
 #Add_Title{
     padding-left: 30%;
+}
+#Tilee{
+    position: absolute;
+    top: 40px;
+    left: 1172px;
 }

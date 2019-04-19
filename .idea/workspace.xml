@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9703d0fa-2f56-4883-8ca0-0cc9fa73ba9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/BootStrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Jquery.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/W_S/Contact/Image/bg2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/W_S/W_S.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/W_S/W_S.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +36,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/W_S/W_S.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="244">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+            <state relative-caret-position="431">
+              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="37" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -101,6 +101,10 @@
       <find>Tileee</find>
       <find>my</find>
       <find>2</find>
+      <find>ui-timepicker-viewport</find>
+      <find>Am</find>
+      <find>AM</find>
+      <find>Time_Field</find>
     </findStrings>
     <replaceStrings>
       <replace>5s</replace>
@@ -120,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pages/Operators.html" />
         <option value="$PROJECT_DIR$/Contact/DB.js" />
         <option value="$PROJECT_DIR$/Projects/C_P_W.html" />
         <option value="$PROJECT_DIR$/Projects/B_W_F/B_W_F.html" />
@@ -161,13 +164,14 @@
         <option value="$PROJECT_DIR$/Projects/T_D/Contact/hijri.js" />
         <option value="$PROJECT_DIR$/Projects/T_D/T_D.html" />
         <option value="$PROJECT_DIR$/Projects/T_D/Style.css" />
-        <option value="$PROJECT_DIR$/Projects/T_D/Js.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Projects/W_S/Script.js" />
         <option value="$PROJECT_DIR$/Projects/W_S/Style.css" />
         <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/font-awesome.css" />
         <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/fontavesome.css" />
         <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/bootstrap-toggle.min.js" />
+        <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/jquery.timepicker.min.css" />
+        <option value="$PROJECT_DIR$/Projects/T_D/Js.js" />
         <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Script.js" />
         <option value="$PROJECT_DIR$/Projects/W_S/W_S.html" />
         <option value="$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Style.css" />
@@ -198,6 +202,19 @@
               <item name="Project_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_JS" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_JS" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="F_K" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_JS" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="F_K" type="462c0819:PsiDirectoryNode" />
+              <item name="Contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project_JS" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +304,8 @@
       <workItem from="1555349072796" duration="2805000" />
       <workItem from="1555436823869" duration="4352000" />
       <workItem from="1555521708141" duration="1509000" />
-      <workItem from="1555572613425" duration="17125000" />
+      <workItem from="1555572613425" duration="21858000" />
+      <workItem from="1555664229692" duration="12892000" />
     </task>
     <task id="LOCAL-00001" summary="3">
       <created>1552148883469</created>
@@ -300,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258586000" />
+    <option name="totallyTimeSpent" value="276211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +333,7 @@
     <frame x="-10" y="0" width="1382" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" weight="0.22314675" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.22314675" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.21104388" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32850242" />
@@ -336,28 +354,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.22314675" />
-      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.21104388" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32850242" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3268921" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -407,13 +403,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pages/Arithmetic.html" />
-    <entry file="file://$PROJECT_DIR$/Projects/F_K/Icon/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/F_K/Icon/index.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/F_K/Icon/Fruit.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -531,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/P_P/P_P.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/P_P/Js.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -582,13 +564,6 @@
     <entry file="file://$PROJECT_DIR$/Projects/T_D/Font.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/T_D/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -620,9 +595,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/BootStrap.css" />
-    <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/bootstrap-toggle.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/bootstrap-toggle.min.js" />
     <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/fontavesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -630,24 +603,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/W_S/W_S.html">
+    <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/jquery.timepicker.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state>
+          <caret column="1423" selection-start-column="1423" selection-end-column="1423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/T_D/Js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="148" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/jquery.timepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10585" lean-forward="true" selection-start-line="6" selection-start-column="10585" selection-end-line="6" selection-end-column="10585" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/P_P/P_P.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="1411">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/F_K/Contact/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/W_S/W_S.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/W_S/Contact/Freamwork/Style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        <state relative-caret-position="431">
+          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
         </state>
       </provider>
     </entry>

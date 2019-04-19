@@ -10,6 +10,8 @@
     <script src="Contact/Freamwork/popper.min.js"></script>
     <script src="Contact/Freamwork/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Contact/Freamwork/jquery.timepicker.min.css">
+    <script src="Contact/Freamwork/jquery.timepicker.min.js"></script>
     <link rel="stylesheet" href="Contact/Freamwork/Style.css">
     <script src="Contact/Freamwork/Script.js"></script>
     <title>Note</title>
@@ -43,15 +45,53 @@
                     <h4 class="modal-title" id="Add_Title"></h4>
                     <button type="button" class="close" data-dismiss="modal">×</button>
                 </div>
-                <!-- Modal body -->
-                <div class="modal-body" align="right">
-                    //Body
+                <!----------------------------- Modal body ----------------------------------->
+                <div class="modal-body" align="right" id="Modal_Body">
+                        <div class="form-group row">
+                            <label for="Title_Field" class="col-sm-2 col-form-label" id="Name_Title"></label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" id="Title_Field">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Day_Field" class="col-sm-2 col-form-label" id="Day_Title"></label>
+                            <div class="col-sm-6">
+                                <div class="col-auto my-1">
+                                    <select class="custom-select mr-sm-2" id="Day_Field">
+                                        <option selected id="Slect_Title"></option>
+                                        <option value="1" id="F_S"></option>
+                                        <option value="2" id="S_S"></option>
+                                        <option value="3" id="T_S"></option>
+                                        <option value="4" id="FO_S"></option>
+                                        <option value="5" id="FI_S"></option>
+                                        <option value="6" id="SI_S"></option>
+                                        <option value="7" id="SE_S"></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="form-group row">
+                        <label for="Time_Field1" class="col-sm-2 col-form-label" id="Time_Title"></label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control timepicker1" id="Time_Field1">
+                        </div>
+                        _
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control timepicker2" id="Time_Field2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="comment" class="col-sm-2 col-form-label" id="Note_Title"></label>
+                        <textarea class="form-control col-sm-8" rows="3" id="comment" name="text" style="resize: none"></textarea>
+                    </div>
                 </div>
-                <!-- Modal footer -->
+                <!----------------------------- Modal body ----------------------------------->
+                <!------------------------------ Modal footer ------------------------------->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" id="Add_Send"></button>
                     <!--<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>-->
                 </div>
+                <!------------------------------ Modal footer ------------------------------->
             </div>
         </div>
     </div>
@@ -79,7 +119,7 @@
         <div class="Half_Time" id="H20"></div>
         <div id="Window_Header">
             <p class="Clocks" id="First_Clock">05:00</p>
-            <p class="Clocks">06:00</p>
+            <p class="Clocks" id="Second_Clock">06:00</p>
             <p class="Clocks">07:00</p>
             <p class="Clocks">08:00</p>
             <p class="Clocks">09:00</p>
@@ -99,7 +139,7 @@
             <p class="Clocks">23:00</p>
             <p class="Clocks">24:00</p>
         </div>
-        <div class="Wekend"><div class="Title_Wekend"><p id="First_Day" class="Text_Day">T</p></div></div>
+        <div class="Wekend"><div class="Title_Wekend"><p id="First_Day" class="Text_Day">T</p></div><div id="Tilee">s</div></div>
         <div class="Wekend"><div class="Title_Wekend"><p id="Second_Day" class="Text_Day">T</p></div></div>
         <div class="Wekend"><div class="Title_Wekend"><p id="Third_Day" class="Text_Day">T</p></div></div>
         <div class="Wekend"><div class="Title_Wekend"><p id="Fourth_Day" class="Text_Day">T</p></div></div>
